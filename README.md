@@ -1,16 +1,4 @@
-# platform_converter
+This is my project
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![mokup](https://github.com/Krishm8/platform_converter/assets/148517012/c8aa9698-7a7c-4a4e-8271-164e6dd78601)
+![final](https://github.com/Krishm8/platform_converter/assets/148517012/c3d862a6-becb-4450-b6e7-5383fab03e3f)
