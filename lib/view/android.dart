@@ -16,15 +16,13 @@ class AndroidPage extends StatefulWidget {
 }
 
 class _AndroidPageState extends State<AndroidPage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Consumer<AIprovider>(
       builder: (BuildContext context, AIprovider value, Widget? child) {
         return Scaffold(
           appBar: AppBar(
-            title: Text("Platform Converter ${value.isAndroid}"),
+            title: Text("Platform Converter"),
             actions: [
               Switch(
                 value: value.isAndroid,
@@ -40,16 +38,6 @@ class _AndroidPageState extends State<AndroidPage> {
             child: Column(
               children: [
                 TabBar(
-                  indicatorColor: Colors.blue,
-                  unselectedLabelColor: Colors.grey,
-                  unselectedLabelStyle: TextStyle(
-                    fontSize: 13,
-                  ),
-                  automaticIndicatorColorAdjustment: true,
-                  indicatorPadding: EdgeInsets.only(top: 5, left: 5, right: 5),
-                  indicatorSize: TabBarIndicatorSize.label,
-                  labelPadding: EdgeInsets.only(top: 10, left: 5, right: 20),
-                  labelColor: Colors.blue,
                   tabs: [
                     Tab(icon: Icon(Icons.person_add)),
                     Tab(text: "CHATS"),
@@ -60,7 +48,7 @@ class _AndroidPageState extends State<AndroidPage> {
                 Expanded(
                   child: TabBarView(
                     children: [
-                     Page1(),
+                      Page1(),
                       Page2(),
                       Page3(),
                       Page4(),

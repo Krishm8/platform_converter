@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class ThemeProvider extends ChangeNotifier{
+class ThemeProvider extends ChangeNotifier {
+  int themeMode = 0;
 
-  int themeMode=0;
-
-  ThemeMode getThemeMode(){
+  ThemeMode getThemeMode() {
     if (themeMode == 1) {
       return ThemeMode.light;
     } else if (themeMode == 2) {
@@ -15,8 +14,8 @@ class ThemeProvider extends ChangeNotifier{
     }
   }
 
-  void changeTheme(int type){
-    themeMode=type;
+  void changeTheme(int type) {
+    themeMode = type;
     notifyListeners();
   }
 }
